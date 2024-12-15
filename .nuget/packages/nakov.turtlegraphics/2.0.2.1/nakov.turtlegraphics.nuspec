@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Nakov.TurtleGraphics</id>
+    <version>2.0.2.1</version>
+    <authors>Svetlin Nakov</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <license type="file">LICENSE</license>
+    <licenseUrl>https://aka.ms/deprecateLicenseUrl</licenseUrl>
+    <icon>Nakov.TurtleGraphics-logo.png</icon>
+    <projectUrl>https://www.nuget.org/packages/Nakov.TurtleGraphics</projectUrl>
+    <description>The .NET library "Nakov.TurtleGraphics" provides а very simple "turtle graphics" drawing interface for C# / .NET Windows Forms, designed for kids, learning to code.
+
+It supports all standard turtle commands like "move-forward", "move-backward", "rotate", "move-to", "pen-up", "pen-down". Animates the turtle actions to demonstrate how it moves and rotates.
+
+It provides a really simple API, through the static class "Turtle":
+- Turtle.Rotate(30);
+- Turtle.Forward(200);
+- Turtle.PenUp();
+- Turtle.Rotate(120);
+- Turtle.Forward(200);
+- Turtle.PenDown();
+- Turtle.Rotate(120);
+- Turtle.Forward(200);</description>
+    <releaseNotes>This release supports .NET Core and .NET Framework.</releaseNotes>
+    <copyright>Copyright © Svetlin Nakov, 2016</copyright>
+    <tags>turtle-graphics C# .NET library Windows-Forms turtle graphics</tags>
+    <repository url="https://www.nuget.org/packages/Nakov.TurtleGraphics" />
+    <dependencies>
+      <group targetFramework=".NETFramework3.5" />
+      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework="net5.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework=".NETCoreApp3.1">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+      <group targetFramework="net5.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+</package>
